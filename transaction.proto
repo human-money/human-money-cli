@@ -1,0 +1,9 @@
+package main;
+	
+message Transaction {
+  required bytes source = 1;
+  required bytes destination = 2;
+  required bytes signature = 3;
+  required uint32 amount = 4;
+  required uint64 nonce = 5;
+}
